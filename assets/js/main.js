@@ -48,7 +48,6 @@ sr.reveal('.sobremim__text',{delay: 400});
 sr.reveal('.habilidades__subtitle',{}); 
 sr.reveal('.habilidades__text',{}); 
 sr.reveal('.habilidades__data',{interval: 200}); 
-sr.reveal('.habilidades__img',{delay: 600});
 
 /*SCROLL CONTATO*/
 sr.reveal('.contato__input',{interval: 200}); 

@@ -235,7 +235,7 @@ img{
 
 /* ===== sobre mim =====*/
 .sobremim__container{
-  row-gap: 2rem;
+  row-gap: 4rem;
   text-align: center;
 }
 .sobremim__subtitle{
@@ -296,10 +296,10 @@ img{
   width: 30%;
 }
 .habilidades__js{
-  width: 10%;
+  width: 30%;
 }
-.habilidades__img{
-  border-radius: .5rem;
+.habilidades__py{
+    width: 60%;
 }
 
 /* ===== contato =====*/

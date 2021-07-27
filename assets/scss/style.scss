@@ -73,7 +73,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
-    display: block; // borra los espacios en blanco
+    display: block; 
 }
 
 /*===== CLASS CSS ===== */
@@ -289,7 +289,7 @@ img{
         margin-right: var(--mb-2);
         color: var(--first-color);
     }
-    &__nomes{
+    &__names{
         display: flex;
         align-items: center;
     }
@@ -309,11 +309,12 @@ img{
         width: 30%;
     }
     &__js{
-        width: 10%;
+        width: 30%;
     }
-    &__img{
-        border-radius: .5rem;
+    &__py{
+        width: 60%;
     }
+
 }
 
 /*CONTATO*/
