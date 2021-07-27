@@ -4,7 +4,6 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Portifólio</title>
    <link rel="stylesheet" href="./assets/css/style.css">
    <!--Link para acessar os icones do site boxicons-->
 <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
@@ -15,16 +14,15 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav_logo">Elisama</a>
+                <a href="#" class="nav__logo">Elisama</a>
             </div>
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="#" class="nav_link">Inicio</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Sobre mim</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Projetos</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Habilidades</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Contato</a></li>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
                 </ul>
             </div>
 
@@ -36,9 +34,122 @@
     </header>
 
     <main class="l-main">
+        <!--===== Inicio =====-->
+        <section class="inicio bd-grid" id="inicio">
+            <div class="inicio__data">
+                <h1 class="inicio__title">Olá,<br>Me chamo <span class="home__title-color">Elisama,</span><br>sou bluemer </h1>
+
+                <a href="#" class="button">Contato</a>
+            </div>
+
+            <div class="inicio__social">
+                <a href="" class="inicio__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="inicio__social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="" class="inicio__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="inicio__img">    
+                <img src="assets/img/talita.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="sessão sobre mim " id="sobremim">
+            <h2 class="section-title">Sobre mim</h2>
+
+            <div class="sobremim__container bd-grid">
+                <div class="sobremim__img">
+                    <img src="assets/img/talita.jpg.png" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="sobremim__subtitle">Eu sou a Elisama</h2>
+                    <p class="sobremim__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="habilidades section" id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="habilidades__container bd-grid">          
+                <div>
+                    <h2 class="habilidades__subtitle">Habilidades que Possuo</h2>
+                    <p class="habilidades__text">Atualmente, sendo aluna da instituição de ensino BlueEditech consigo garantir que possuo as habilidades abaixo mencionadas.</p>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="habilidades__name">HTML5</span>
+                        </div>
+                        <div class="habilidades__bar habilidades__html">
+
+                        </div>
+                        <div>
+                            <span class="habilidades__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="habilidades__name">CSS3</span>
+                        </div>
+                        <div class="habilidades__bar habilidades__css">
+                            
+                        </div>
+                        <div>
+                            <span class="habilidades__percentage">30%</span>
+                        </div>
+                    </div>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="habilidades__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="habilidades__bar habilidades__js">
+                            
+                        </div>
+                        <div>
+                            <span class="habilidades__percentage">10%</span>
+                        </div>
+                    </div>
+                <div>              
+                    <img src="assets/img/work3.jpg" alt="" class="habilidades__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="sessão contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+
+            <div class="contato__container bd-grid">
+                <form action="" class="contato__form">
+                    <input type="text" placeholder="Name" class="contato__input">
+                    <input type="e-mail" placeholder="Email" class="contato__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contato__input"></textarea>
+                    <input type="button" value="Enviar" class="contato__button button">
+                </form>
+            </div>
+        </section>
     </main>
-<!--Scroll reveal-->
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Elisama</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>
+        </div>
+        <p>&#169; 2021 todos os direitos reservados</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script src="./assets/js/index.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
+</html>
