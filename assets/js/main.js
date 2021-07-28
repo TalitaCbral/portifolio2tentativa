@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*===== ACTIVE AND REMOVE MENU =====*/
+/*===== REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav__link');   
 
 function linkAction(){
@@ -48,6 +48,9 @@ sr.reveal('.sobremim__text',{delay: 400});
 sr.reveal('.habilidades__subtitle',{}); 
 sr.reveal('.habilidades__text',{}); 
 sr.reveal('.habilidades__data',{interval: 200}); 
+
+/*SCROLL projetos*/
+sr.reveal('.projetos__img',{interval: 200}); 
 
 /*SCROLL CONTATO*/
 sr.reveal('.contato__input',{interval: 200}); 

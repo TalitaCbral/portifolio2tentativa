@@ -302,6 +302,27 @@ img{
     width: 60%;
 }
 
+/* ===== projetos =====*/
+.projetos__container{
+  row-gap: 2rem;
+}
+.projetos__img{
+  border-radius: .5rem;
+  overflow: hidden;
+  display: flexbox;
+  margin: auto;
+  width: 50%;
+}
+.projetos__img img{
+  transition: 1s;
+  cursor: pointer;
+  right: 0;
+  bottom: 0; 
+}
+.projetos__img img:hover{
+  transform: scale(1.1);
+}
+
 /* ===== contato =====*/
 .contato__input{
   width: 100%;
